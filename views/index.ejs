@@ -1,0 +1,21 @@
+<%- include('bootheader') -%>
+
+<%- include('menubar') -%>
+
+<div class="jumbotron">
+  <h1>Ben Hahn's Homework 2</h1>
+  <p> This the form page </p>
+</div>
+
+
+<form method="post" action="/formValues" class="bg-warning">
+      Enter your name:<input type="text" name="fullname"><br>
+      Enter your age:<input type="number" name="age"><br>
+      What is your favorite color? <input type="color" name="favoriteColor"> <br>
+      Have you ever coded before? <br>
+      yes <input type="radio" name="codeExp" value="yes"><br>
+      no  <input type="radio" name="codeExp" value="no"><br>
+      <input type="submit" value="Submit">
+</form>
+
+<%- include('bootfooter') -%>

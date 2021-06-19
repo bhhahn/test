@@ -1,0 +1,21 @@
+<%- include('bootheader') -%>
+
+<%- include('menubar') -%>
+
+<div class="jumbotron">
+    <h1>Profile Form</h1>
+    <p>Enter info for your profile.</p>
+</div>
+
+<form>
+  <input type="text" name="username" size = 50> Username <br>
+  <input type="url" name="pfpurl" size = 50> Profile Picture URL <br>
+  <input type="number" name="fnumber">Favorite Number <br>
+  <input type="url" name="fwebsite" size = 50>Favorite Website<br>
+  About You: <br>
+  Enter your about you page. <br>
+  <textarea name="abtu" rows="8" cols="50"></textarea> <br>
+  <input type="submit" value="Submit">
+</form>
+
+<%- include('bootfooter') -%>
